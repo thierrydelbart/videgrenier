@@ -10,41 +10,46 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
+    <a href="#main-content" class="skip-link">Aller au contenu principal</a>
     <div class="container">
-        <div class="poster">
-            <div class="presentation">
+        <div class="poster" id="main-content">
+            <h2 class="presentation">
                 Clapiers Basketball<br />
-                organise son
-            </div>
-            <div class="title">
+                organise son <span style="display: none">Vide-Grenier</span>
+            </h2>
+            <h1 class="title">
                 VIDE-GRENIER
-            </div>
-            <div class="details">
-                Buvette sur place🥤🍕 
-                <br />
-                Animations basket 🏀
-            </div>
-            <div class="main-image">
-                <img src="./videgrenier.png" alt="Vide-Grenier">
-            </div>
-            <div class="line">
-                <div class="date">
-                    Dimanche 17 Mai 2026<br />
-                    <span class="heure">De 7h30 à 13h</span>
+            </h1>
+            <main>
+                <div class="details">
+                    Buvette sur place <span aria-label="Boisson">🥤</span><span aria-label="Pizza">🍕</span> 
+                    <br />
+                    Animations basket <span aria-label="Ballon de basket">🏀</span>
                 </div>
-                <div class="logo">
-                    <img src="./logo.png" alt="Clapiers Basketball">
+                <div class="main-image">
+                    <img src="./videgrenier.png" alt="Vide-Grenier">
                 </div>
-            </div>
-            <div class="registration">
-                <div class="location">
-                    Esplanade Jean jaurès,  clapiers
+                <div class="line">
+                    <div class="date">
+                        Dimanche 17 Mai 2026<br />
+                        <span class="heure">De 7h30 à 13h</span>
+                    </div>
+                    <div class="logo">
+                        <a href="https://www.facebook.com/profile.php?id=100094689314271" title="Clapiers Basketball Facebook">
+                            <img src="./logo.png" alt="Clapiers Basketball">
+                        </a>
+                    </div>
                 </div>
-                <span class="bold">Inscriptions :</span> kiosque vermande <br/>
-                <span class="highlight">Samedi 16 mai à 9h</span> <br />
-                10 euros les 3M <br /><br />
-                <span class="bold">Renseignements :</span> <a href="mailto:videgrenier_clapiersbasket@gmail.com">videgrenier_clapiersbasket@gmail.com</a>
-            </div> 
+                <div class="registration">
+                    <div class="location">
+                        Esplanade Jean jaurès,  clapiers
+                    </div>
+                    <span class="bold">Inscriptions :</span> kiosque vermande <br/>
+                    <span class="highlight">Samedi 16 mai à 9h</span> <br />
+                    10 euros les 3M <br /><br />
+                    <span class="bold">Renseignements :</span> <a href="mailto:videgrenier_clapiersbasket@gmail.com">videgrenier_clapiersbasket@gmail.com</a>
+                </div>                 
+            </main>
         </div>
     </div>
 </body>

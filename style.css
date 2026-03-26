@@ -6,6 +6,27 @@ body {
     font-size: 10px;
 }
 
+/* Skip link pour l'accessibilité */
+.skip-link {
+    position: absolute;
+    top: -40px;
+    left: 6px;
+    background: #000;
+    color: #fff;
+    padding: 8px;
+    text-decoration: none;
+    z-index: 100;
+}
+
+.skip-link:focus {
+    top: 6px;
+}
+
+/* Focus visible pour tous les liens */
+a:focus {
+    outline: 2px solid #e2503e;
+    outline-offset: 2px;
+}
 
 /* À partir de 500px : taille normale */
 @media (min-width: 500px) {
@@ -32,13 +53,14 @@ body {
     text-transform: uppercase;
 }
 
-.presentation {
+h2 {
     font-size: 2em;
     letter-spacing: 0.1em;
     font-weight: 600;
+    margin: 0;
 }
 
-.title {
+h1 {
     font-family: 'Antonio', sans-serif;
     font-weight: 700;
     color: #26815c;

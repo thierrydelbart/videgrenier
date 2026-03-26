@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://cbb34.surge.sh/sitemap.xml

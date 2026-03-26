@@ -1,0 +1,21 @@
+{
+  "name": "videgrenier",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/thierrydelbart/videgrenier#readme",
+  "bugs": {
+    "url": "https://github.com/thierrydelbart/videgrenier/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thierrydelbart/videgrenier.git"
+  },
+  "license": "ISC",
+  "author": "Thierry Delbart",
+  "type": "commonjs",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "surge . cbb34.surge.sh"
+  }
+}

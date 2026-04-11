@@ -119,7 +119,7 @@ h1 {
 }
 
 /* À partir de 500px : utiliser flexbox avec logo à gauche */
-@media (min-width: 500px) {
+@media (min-width:780px) {
     .line {
         display: flex;
         align-items: center;
@@ -176,4 +176,39 @@ h1 {
 
 .bold {
     font-weight: 700;
+}
+
+.small {
+    font-size: 0.8em;
+}
+
+.footer-social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    margin-top: 20px;
+}
+
+.footer-social__link {
+    display: inline-flex;
+    width: 48px;
+    height: 48px;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+.footer-social__link:hover {
+    opacity: 0.85;
+    transform: scale(1.05);
+}
+
+.footer-social__icon {
+    width: 48px;
+    height: 48px;
+    display: block;
+    object-fit: contain;
 }

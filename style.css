@@ -29,7 +29,7 @@ a:focus {
 }
 
 /* À partir de 500px : taille normale */
-@media (min-width: 500px) {
+@media (min-width: 780px) {
     body {
         font-size: inherit;
     }
@@ -42,7 +42,7 @@ a:focus {
 
 .poster {
     background-color: white;
-    max-width: 800px;
+    max-width: 1000px;
     width: 100%;
     border: 2px solid #333;
     border-radius: 8px;

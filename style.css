@@ -142,7 +142,7 @@ h1 {
     }
 }
 
-.registration {
+.bloc {
     border: 2px solid black;
     border-radius: 8px;
     position: relative;
@@ -154,7 +154,7 @@ h1 {
     padding-top: 50px;
 }
 
-.location {
+.bloc-title {
     position: absolute;
     top: -30px;
     left: 50%;
